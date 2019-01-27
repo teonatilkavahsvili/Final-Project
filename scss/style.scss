@@ -1,0 +1,39 @@
+@import 'reset';
+@import'module/mixins.scss';
+
+
+section{
+
+    width: 1920px;
+
+    img{
+        width:100%;
+        @include position(relative);
+    }
+}
+
+header{
+    .container{
+        @include position(absolute);
+    }
+    .nav{
+        @include display(flex);
+    }
+
+    ul{
+        @include display(flex);
+        
+    }
+    li{
+        margin-left: 60px;
+    }
+    .box, .search{
+        width:17px;
+    }
+}
+.title{
+    @extend %container;
+    .p{
+        width: 960px;
+    }
+}

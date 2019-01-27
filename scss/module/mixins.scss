@@ -1,0 +1,13 @@
+@mixin display($property){
+    display:$property;
+}
+
+@mixin flex ($align-items, $justify-content){
+    align-items: $align-items;
+    justify-content: $justify-content;
+}
+    
+
+@mixin position($property){
+    position:$property;
+}
