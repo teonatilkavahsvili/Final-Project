@@ -11,3 +11,7 @@
 @mixin position($property){
     position:$property;
 }
+
+@mixin text-align($property){
+    text-align: $property;
+}

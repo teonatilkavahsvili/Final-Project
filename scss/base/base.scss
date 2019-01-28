@@ -1,3 +1,9 @@
 @import './module/private.scss';
 @import './module/mixins.scss';
 
+header{
+    .box, .search{
+        width:17px;
+    }
+    
+}
