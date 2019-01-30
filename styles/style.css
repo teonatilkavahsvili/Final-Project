@@ -41,12 +41,13 @@ table {
 
 header .banner, .device {
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat; }
 
-.background {
+.background, .comment {
   margin: 110px 0; }
 
 .title {
@@ -59,6 +60,7 @@ header .text {
 
 header .banner, .device {
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat; }
@@ -69,12 +71,13 @@ header .banner, .device {
 
 header .banner, .device {
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat; }
 
-.background {
+.background, .comment {
   margin: 110px 0; }
 
 .title {
@@ -87,6 +90,7 @@ header .text {
 
 header .banner, .device {
   background-position: center;
+  -webkit-background-size: cover;
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat; }
@@ -100,6 +104,16 @@ header .banner {
 header .text {
   text-align: center;
   margin-top: 130px; }
+  header .text hr {
+    width: 60px;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #F38181;
+    background-color: white;
+    border: none; }
+  header .text .btn {
+    width: 160px; }
 
 header h2 {
   font-size: 60px;
@@ -111,7 +125,7 @@ header h1 {
   color: white;
   display: inline-block;
   margin-top: 30px;
-  margin-bottom: 80px; }
+  margin-bottom: 40px; }
 
 .title {
   margin-top: 59px;
@@ -143,8 +157,17 @@ header h1 {
 .picture {
   width: 1140px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between; }
 
 .picture img {
@@ -170,6 +193,8 @@ header h1 {
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
   .box p {
     top: 20px; }
@@ -187,6 +212,8 @@ header h1 {
   height: 270px;
   width: 253px;
   text-align: center; }
+  .container .col .number {
+    font-size: 60px; }
 
 .container a {
   color: white; }
@@ -197,22 +224,36 @@ a .number {
 .work {
   width: 1140px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   height: 100px; }
 
 .service {
-  margin-top: 30px; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px; }
   .service img {
     display: inline-block; }
   .service a {
     color: #333333;
-    margin-left: 15px; }
+    margin-left: 15px;
+    margin-top: 0; }
   .service p {
     color: #999999;
     width: 300px;
-    margin-left: 50px;
+    margin-left: 15px;
     margin-top: 20px; }
 
 hr {
@@ -227,3 +268,163 @@ hr {
   background-image: url(../img/nature.png);
   margin-top: 100px;
   margin-bottom: 100px; }
+
+.article {
+  width: 1140px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.photo img {
+  width: 500px; }
+
+.photography {
+  width: 500px;
+  height: 333px; }
+  .photography a {
+    margin-bottom: 5px; }
+
+.frame {
+  border: 1px solid grey; }
+
+.paragraph {
+  height: 300px; }
+  .paragraph ::-webkit-scrollbar {
+    width: 20px; }
+  .paragraph ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px grey;
+    box-shadow: inset 0 0 5px grey;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; }
+  .paragraph ::-webkit-scrollbar-thumb {
+    background: red;
+    -webkit-border-radius: 10px;
+    border-radius: 10px; }
+  .paragraph ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; }
+
+.comment {
+  height: 270px;
+  background-color: #F8F8F8; }
+
+.part {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 900px;
+  margin: 0 auto; }
+
+.sms img {
+  width: 150px; }
+
+.jon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  margin-left: 60px; }
+  .jon p {
+    color: #999999;
+    width: 550px; }
+  .jon hr {
+    width: 60px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    height: 2px;
+    color: #F38181;
+    background-color: #F38181;
+    border: none; }
+
+.members {
+  width: 1140px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .members img {
+    width: 300px; }
+  .members p {
+    color: #999999;
+    margin-top: 10px; }
+  .members .name {
+    margin-top: 25px;
+    text-align: center; }
+    .members .name a {
+      color: #333333; }
+
+.boy img {
+  position: relative; }
+
+.boy .transform {
+  position: absolute;
+  width: 100%;
+  width: 300px;
+  height: 371px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #95E1D3; }
+
+.social img {
+  width: 32px;
+  height: 32px; }
+
+.social .fb {
+  border: 1px;
+  background-color: #F38181; }
+
+.social .soc {
+  border: 1px;
+  background-color: #FCE38A; }
+
+.boy {
+  position: relative;
+  text-align: center;
+  color: white; }
+  .boy .social {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.colection img {
+  width: 375px; }
+
+.left {
+  width: 754px;
+  float: left; }
+
+.medusa {
+  float: left; }
+
+.right {
+  width: 375px;
+  float: left; }

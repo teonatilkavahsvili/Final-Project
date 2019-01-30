@@ -14,6 +14,21 @@ header{
         @extend %container01;
         @include text-align(center);
         margin-top:130px;
+
+        hr{
+            width: 60px;
+            height: 2px;
+            margin-top:20px;
+            margin-bottom:50px;
+            color: $color03;
+            background-color:$color01;
+            border:none;
+
+        }
+
+        .btn{
+            width:160px;
+        }
     }
     h2{
         font-size:60px;
@@ -25,7 +40,7 @@ header{
         color:white;
         display: inline-block;
         margin-top:30px;
-        margin-bottom:80px;
+        margin-bottom:40px;
     }
 }
 
@@ -60,6 +75,7 @@ header{
     }
 }
 
+//picture
 .picture{
     width:1140px;
     margin:0 auto;
@@ -109,6 +125,7 @@ header{
     
 }
 
+//background
 
 .background{
     height:270px;
@@ -124,6 +141,10 @@ header{
         height: 270px;
         width:253px;
         @include text-align(center);
+
+        .number{
+            font-size:60px;
+        }
     }
    a{
        color:$color01;
@@ -135,6 +156,8 @@ a{
     }
 }
 
+
+//work
 .work{
     width:1140px;
     margin:0 auto;
@@ -144,20 +167,22 @@ a{
 
 }
 .service{
-    margin-top:30px;
+    display:flex;
+    margin-top:40px;
     img{
         display:inline-block;
     }
     a{
         color:$color05;
         margin-left:15px;
+        margin-top:0;
         
     }
     
     p{
         color:$color07;
         width:300px;
-        margin-left:50px;
+        margin-left:15px;
         margin-top:20px;
     }
 }
@@ -171,13 +196,191 @@ hr{
 
 }
 
+//device
+
 .device{
     
         background-image: url(../img/nature.png);
         @extend %background;
         margin-top:100px;
-        margin-bottom:100px;
+        margin-bottom:100px;   
+}
+
+
+//article
+
+.article{
+    width:1140px;
+    margin:0 auto;
+    @include display(flex);
+    @include flex(center, space-between);
+
+}
+.photo{
+    img{
+        width:500px;
+    }
+}
+
+.photography{
+    width:500px;
+    height:333px;
+
+    a{
+        margin-bottom:5px;
+    }
+}
+.frame{
+    border:1px solid grey;
+}
+
+.paragraph{
+    height:300px;
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: red; 
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #b30000; 
+      }
+}
+
+//coment
+.comment{
+    height:270px;
+    background-color:$color09;
+    @extend %margin-110px;
+}
+.part{
+    @include display(flex);
+    width:900px;  
+    margin:0 auto;
+}
+
+.sms{
+
+    img{
+        width:150px;
+        
+
+    }
+}
+
+.jon{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left:60px;
+    p{
+        color: $color07;
+        width:550px;
+    }
+
+    hr{
+        width: 60px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        height: 2px;
+        color: $color03;
+        background-color:$color03;
+        border:none;
+
+    }
+}
+
+//members
+.members{
+    width:1140px;
+    margin:0 auto;
+    @include display(flex);
+    @include flex(center, space-between);
+
+    img{
+        width:300px;
+    }
+    p{
+        color:$color07;
+        margin-top:10px;
+    }
+    .name{
+        margin-top:25px;
+        text-align: center;
+        a{
+            color:$color05;
+        }
+    }
+}
+
+
+.boy{
+    img{
+        
+        @include position(relative);
+    }
+    .transform{
+        @include position(absolute);
+        width: 100%;
+        width: 300px;
+        height: 371px;
+        margin-left: 10px;
+        margin-top: 10px;
+        background-color:$color04;
+    }
+}
+
+.social{
+    img{
+        width:32px;
+        height: 32px;
+    }
+    .fb{
+        border:1px;
+        background-color:$color03;
+    }
+    .soc{
+        border:1px;
+        background-color:$color02;
+    }
+}
+
+.boy {
+    @include position(relative);
+	text-align: center;
+	color:$color01;
+
+    .social{
+        @include position(absolute);
+        top: 43%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+    }
+   
     
 }
 
+//colection
+.colection{
+    img{
+        width:375px;;
+    }
+}
+.left{
+    width:754px;
+    float:left;
+}
+.medusa{
+    float:left;
+    
+}
+.right{
+    width:375px;
+    float:left;
+}
 
