@@ -721,10 +721,139 @@ a{
     @extend %background;
     height:200px;
     margin-top:110px;
-    margin-bottom:70px;
 
     p{
         border-top:1px solid white;
     }
  }
  
+//footer
+.colors{
+    background-color: $color10;
+    height: 500px;
+}
+.footer{
+    @include display(flex);
+       @include flex(center,space-between);
+       width:1140px;
+       margin:0 auto;
+       height: 350px;
+       
+}
+
+.mogo{
+    width:400px;
+    height: 350px;
+    margin-top:70px;
+
+    a{
+        font-size:46px;
+        color:$color06;
+        
+    }
+
+    p{
+        display:inline-block;
+        font-size:15px;
+        margin-bottom:40px;
+        margin-top:40px;
+        color: $color07;
+    }
+    h2{
+        margin-bottom:20px;
+    }
+    input[type=submit] {
+        background-color:$color04;
+        color: white;
+        border:none;
+        width:130px;
+        height:40px;
+      }
+      input[type=text]{
+          color:$color06;
+          height: 40px;
+          width:210px;
+          border:none;
+
+      }
+}
+.follow{
+    margin-top:17px;
+    margin-bottom:35px;
+
+    img{
+        margin-left:5px;
+    }
+    h2{
+        color: $color07;
+        display:inline-block;
+    }
+
+
+}
+
+
+.Blogs{
+    width:330px;
+    margin-top:70px;
+    
+
+    .site{
+        display:flex;
+        margin-top:30px;
+        
+    }
+    .txt{
+        margin-left:20px;
+        width:170px;
+        
+    }
+    a{
+        color:$color05;
+    }
+    p{
+        color:$color07;
+        margin-top:10px;
+    }
+
+}
+
+
+
+.instagram{
+    margin-top:70px;
+    
+    .pic{
+        margin-top:40px;
+        margin-bottom:20px;
+        width:275px;
+    }
+    a{
+        color:$color05;
+    }
+
+}
+
+//gray
+.gray{
+    background-color: $color10;
+    height:60px;
+}
+
+.titre{
+    width:1140px;
+    margin:0 auto;
+
+    hr{
+        margin-top:0px;
+    }
+   p{
+       display:inline-block;
+       width:1140px;
+       margin:0 auto;
+       @include text-align(center);
+   }
+   p span{
+       color:$color03;
+   }
+}

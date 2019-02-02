@@ -755,7 +755,107 @@ a .number {
 .map {
   background-image: url(../img/map.png);
   height: 200px;
-  margin-top: 110px;
-  margin-bottom: 70px; }
+  margin-top: 110px; }
   .map p {
     border-top: 1px solid white; }
+
+.colors {
+  background-color: #EBEBEB;
+  height: 500px; }
+
+.footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+  height: 350px; }
+
+.mogo {
+  width: 400px;
+  height: 350px;
+  margin-top: 70px; }
+  .mogo a {
+    font-size: 46px;
+    color: #CCCCCC; }
+  .mogo p {
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: #999999; }
+  .mogo h2 {
+    margin-bottom: 20px; }
+  .mogo input[type=submit] {
+    background-color: #95E1D3;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px; }
+  .mogo input[type=text] {
+    color: #CCCCCC;
+    height: 40px;
+    width: 210px;
+    border: none; }
+
+.follow {
+  margin-top: 17px;
+  margin-bottom: 35px; }
+  .follow img {
+    margin-left: 5px; }
+  .follow h2 {
+    color: #999999;
+    display: inline-block; }
+
+.Blogs {
+  width: 330px;
+  margin-top: 70px; }
+  .Blogs .site {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px; }
+  .Blogs .txt {
+    margin-left: 20px;
+    width: 170px; }
+  .Blogs a {
+    color: #333333; }
+  .Blogs p {
+    color: #999999;
+    margin-top: 10px; }
+
+.instagram {
+  margin-top: 70px; }
+  .instagram .pic {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 275px; }
+  .instagram a {
+    color: #333333; }
+
+.gray {
+  background-color: #EBEBEB;
+  height: 60px; }
+
+.titre {
+  width: 1140px;
+  margin: 0 auto; }
+  .titre hr {
+    margin-top: 0px; }
+  .titre p {
+    display: inline-block;
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center; }
+  .titre p span {
+    color: #F38181; }
