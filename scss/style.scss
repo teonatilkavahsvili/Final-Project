@@ -15,7 +15,78 @@ header{
             color:$color02;
             font-size:20px;
         }
+        input {
+            outline: none;
+        }
+        input[type=search] {
+            -webkit-appearance: textfield;
+            -webkit-box-sizing: content-box;
+            font-family: inherit;
+            font-size: 100%;
+        }
+        input::-webkit-search-decoration,
+        input::-webkit-search-cancel-button {
+            display: none; 
+        }
+        
+        
+        input[type=search] {
+            background:$color03 url(../icon/search.png) no-repeat 9px center;
+            border: solid 1px $color03;
+            padding: 9px 10px 9px 32px;
+            width: 55px;
+            
+            -webkit-border-radius: 10em;
+            -moz-border-radius: 10em;
+            border-radius: 10em;
+            
+            -webkit-transition: all .5s;
+            -moz-transition: all .5s;
+            transition: all .5s;
+        }
+        input[type=search]:focus {
+            width: 130px;
+            background-color: $color01;
+            border-color:$color01;
+            
+            -webkit-box-shadow: 0 0 5px rgb(250, 152, 152);
+            -moz-box-shadow: 0 0 5px rgb(250, 152, 152);
+            box-shadow: 0 0 5px rgb(250, 152, 152);
+        }
+        
+        
+        input:-moz-placeholder {
+            color: #999;
+        }
+        input::-webkit-input-placeholder {
+            color: #999;
+        }
+        
+        /* Demo 2 */
+        #demo-2 input[type=search] {
+            width: 15px;
+            padding-left: 10px;
+            color: transparent;
+            cursor: pointer;
+        }
+        #demo-2 input[type=search]:hover {
+            background-color: rgb(241, 147, 147);
+        }
+        #demo-2 input[type=search]:focus {
+            width: 130px;
+            padding-left: 32px;
+            color:$color01;
+            background-color:rgb(241, 147, 147);
+            cursor: auto;
+        }
+        #demo-2 input:-moz-placeholder {
+            color: transparent;
+        }
+        #demo-2 input::-webkit-input-placeholder {
+            color: transparent;
+        }
     }
+    
     .text{
         @extend %container01;
         @include text-align(center);
@@ -245,10 +316,14 @@ a{
         p{
             border-top:1px color $color01; 
         }
+
+        .title{
+            padding-top:80px;
+        }
         
         .planshet{
             @extend %container;
-            margin-top:257px;
+            margin-top:130px;
             @include text-align(center);
             @include position(relative);
  
@@ -295,18 +370,18 @@ a{
 }
 .photo{
     img{
-        width:500px;
+        width:530px;
         transition: transform .2s;
     }
     img:hover{
         -ms-transform: scale(1.1);
         -webkit-transform: scale(1.1);
-        transform: scale(1.2);
+        transform: scale(1.05);
       }
 }
 
 .photography{
-    width:500px;
+    width:530px;
     height:333px;
 
    
@@ -330,7 +405,7 @@ a{
 }
 
 .paragraph{
-    height:300px;
+    height:320px;
     margin-top:10px;
 }
 .scrollbar
@@ -1000,3 +1075,7 @@ img:hover{
        color:$color03;
    }
 }
+
+
+
+

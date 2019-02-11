@@ -116,10 +116,58 @@ header .box, header .search {
 
 header .banner {
   background-image: url(../img/banner.png);
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  /* Demo 2 */ }
   header .banner .nav-item:hover {
     color: #FCE38A;
     font-size: 20px; }
+  header .banner input {
+    outline: none; }
+  header .banner input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%; }
+  header .banner input::-webkit-search-decoration,
+  header .banner input::-webkit-search-cancel-button {
+    display: none; }
+  header .banner input[type=search] {
+    background: #F38181 url(../icon/search.png) no-repeat 9px center;
+    border: solid 1px #F38181;
+    padding: 9px 10px 9px 32px;
+    width: 55px;
+    -webkit-border-radius: 10em;
+    border-radius: 10em;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s; }
+  header .banner input[type=search]:focus {
+    width: 130px;
+    background-color: white;
+    border-color: white;
+    -webkit-box-shadow: 0 0 5px #fa9898;
+    box-shadow: 0 0 5px #fa9898; }
+  header .banner input:-moz-placeholder {
+    color: #999; }
+  header .banner input::-webkit-input-placeholder {
+    color: #999; }
+  header .banner #demo-2 input[type=search] {
+    width: 15px;
+    padding-left: 10px;
+    color: transparent;
+    cursor: pointer; }
+  header .banner #demo-2 input[type=search]:hover {
+    background-color: #f19393; }
+  header .banner #demo-2 input[type=search]:focus {
+    width: 130px;
+    padding-left: 32px;
+    color: white;
+    background-color: #f19393;
+    cursor: auto; }
+  header .banner #demo-2 input:-moz-placeholder {
+    color: transparent; }
+  header .banner #demo-2 input::-webkit-input-placeholder {
+    color: transparent; }
 
 header .text {
   text-align: center;
@@ -323,8 +371,10 @@ a .number {
   margin-bottom: 100px; }
   .device p {
     border-top: 1px color white; }
+  .device .title {
+    padding-top: 80px; }
   .device .planshet {
-    margin-top: 257px;
+    margin-top: 130px;
     text-align: center;
     position: relative; }
     .device .planshet img {
@@ -374,7 +424,7 @@ a .number {
   justify-content: space-between; }
 
 .photo img {
-  width: 500px;
+  width: 530px;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
   -o-transition: transform .2s;
@@ -384,10 +434,10 @@ a .number {
 .photo img:hover {
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  transform: scale(1.2); }
+  transform: scale(1.05); }
 
 .photography {
-  width: 500px;
+  width: 530px;
   height: 333px; }
 
 .frame {
@@ -405,7 +455,7 @@ a .number {
     font-size: 20px; }
 
 .paragraph {
-  height: 300px;
+  height: 320px;
   margin-top: 10px; }
 
 .scrollbar {
