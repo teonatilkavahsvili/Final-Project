@@ -605,8 +605,12 @@ a .number {
     transform: translate(-50%, -50%); }
 
 .colection {
-  width: 100%; }
+  overflow: hidden; }
+  .colection .row {
+    margin-left: 0;
+    margin-right: 0; }
   .colection img {
+    max-width: 100%;
     -webkit-transition: -webkit-transform .2s;
     transition: -webkit-transform .2s;
     -o-transition: transform .2s;
@@ -617,8 +621,11 @@ a .number {
     -webkit-transform: scale(1.1);
     transform: scale(1.02); }
 
+.colection .row .col-3 {
+  padding-left: 0;
+  padding-right: 0; }
+
 .designed {
-  width: 375px;
   position: relative;
   text-align: center; }
 
