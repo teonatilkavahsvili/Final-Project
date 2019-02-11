@@ -9,8 +9,9 @@ header{
     .banner{
         background-image: url(../img/banner.png);
         @extend %background;
+        background-attachment: fixed;
 
-        a:hover{
+        .nav-item:hover{
             color:$color02;
             font-size:20px;
         }
@@ -237,6 +238,7 @@ a{
     
         background-image: url(../img/nature.png);
         @extend %background;
+        background-attachment: fixed;
         margin-top:100px;
         margin-bottom:100px; 
 
@@ -504,7 +506,6 @@ a{
 .colection{
     width:100%;
     img{
-        width:375px;
         transition: transform .2s;
     }
     img:hover{
@@ -512,21 +513,6 @@ a{
         -webkit-transform: scale(1.1);
         transform: scale(1.02);
       }
-}
-.left{
-    width:375px;
-    float:left;
-}
-.medusa{
-    float:left;
-    
-}
-.right{
-    width:375px;
-    float:left;
-}
-.clear{
-    clear:both;
 }
 .designed{
     width:375px;
@@ -608,6 +594,7 @@ a{
 .clients{
     background-image: url(../img/mountain.png);
     @extend %background;
+    background-attachment: fixed;
 
     .text{
         @extend %container01;
@@ -834,6 +821,7 @@ a{
  .map{
     background-image: url(../img/map.png);
     @extend %background;
+    background-attachment: fixed;
     height:200px;
     margin-top:110px;
 

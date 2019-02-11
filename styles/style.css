@@ -115,8 +115,9 @@ header .box, header .search {
   width: 17px; }
 
 header .banner {
-  background-image: url(../img/banner.png); }
-  header .banner a:hover {
+  background-image: url(../img/banner.png);
+  background-attachment: fixed; }
+  header .banner .nav-item:hover {
     color: #FCE38A;
     font-size: 20px; }
 
@@ -317,6 +318,7 @@ a .number {
 
 .device {
   background-image: url(../img/nature.png);
+  background-attachment: fixed;
   margin-top: 100px;
   margin-bottom: 100px; }
   .device p {
@@ -555,7 +557,6 @@ a .number {
 .colection {
   width: 100%; }
   .colection img {
-    width: 375px;
     -webkit-transition: -webkit-transform .2s;
     transition: -webkit-transform .2s;
     -o-transition: transform .2s;
@@ -565,20 +566,6 @@ a .number {
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.02); }
-
-.left {
-  width: 375px;
-  float: left; }
-
-.medusa {
-  float: left; }
-
-.right {
-  width: 375px;
-  float: left; }
-
-.clear {
-  clear: both; }
 
 .designed {
   width: 375px;
@@ -650,7 +637,8 @@ a .number {
     display: flex; }
 
 .clients {
-  background-image: url(../img/mountain.png); }
+  background-image: url(../img/mountain.png);
+  background-attachment: fixed; }
   .clients .text {
     text-align: center; }
     .clients .text hr {
@@ -854,6 +842,7 @@ a .number {
 
 .map {
   background-image: url(../img/map.png);
+  background-attachment: fixed;
   height: 200px;
   margin-top: 110px; }
   .map p {
