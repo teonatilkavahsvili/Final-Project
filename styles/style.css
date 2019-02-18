@@ -118,6 +118,9 @@ header .banner {
   background-image: url(../img/banner.png);
   background-attachment: fixed;
   /* Demo 2 */ }
+  header .banner .navbar-light .navbar-brand:hover {
+    color: #FCE38A;
+    font-size: 20px; }
   header .banner .nav-item:hover {
     color: #FCE38A;
     font-size: 20px; }
@@ -169,6 +172,9 @@ header .banner {
   header .banner #demo-2 input::-webkit-input-placeholder {
     color: transparent; }
 
+header li a {
+  font-family: 'Roboto', sans-serif; }
+
 header .text {
   text-align: center;
   margin-top: 130px; }
@@ -181,21 +187,24 @@ header .text {
     background-color: white;
     border: none; }
   header .text .btn {
-    width: 160px; }
+    width: 160px;
+    font-family: 'Roboto', sans-serif; }
   header .text .btn:hover {
     color: #F38181; }
 
 header h2 {
   font-size: 60px;
   color: white;
-  display: inline-block; }
+  display: inline-block;
+  font-family: 'Kaushan Script', cursive; }
 
 header h1 {
   font-size: 100px;
   color: white;
   display: inline-block;
   margin-top: 30px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif; }
 
 .title {
   margin-top: 59px;
@@ -203,17 +212,20 @@ header h1 {
 
 .title h2 {
   font-size: 23px;
-  color: #333333; }
+  color: #333333;
+  font-family: 'Kaushan Script', cursive; }
 
 .title h1 {
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 30px;
-  color: #333333; }
+  color: #333333;
+  font-family: 'Roboto', sans-serif; }
 
 .title p {
   color: #999999;
-  margin-bottom: 92px; }
+  margin-bottom: 92px;
+  font-family: 'Roboto', sans-serif; }
 
 .title hr {
   width: 80px;
@@ -277,7 +289,8 @@ header h1 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
   .box p {
-    top: 20px; }
+    top: 20px;
+    font-family: 'Montserrat', sans-serif; }
   .box .icon {
     width: 30px; }
 
@@ -298,7 +311,8 @@ header h1 {
     font-size: 60px; }
 
 .container a {
-  color: white; }
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
 
 .container a:hover {
   color: #F38181;
@@ -345,7 +359,8 @@ a .number {
   .service a {
     color: #333333;
     margin-left: 15px;
-    margin-top: 0; }
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif; }
   .service a:hover {
     color: #F38181;
     font-size: 20px;
@@ -354,7 +369,8 @@ a .number {
     color: #999999;
     width: 300px;
     margin-left: 15px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif; }
 
 .stripe hr {
   width: 1140px;
@@ -373,8 +389,12 @@ a .number {
     border-top: 1px color white; }
   .device .title {
     padding-top: 80px; }
+    .device .title h2 {
+      font-family: 'Kaushan Script', cursive; }
+    .device .title h1 {
+      font-family: 'Montserrat', sans-serif; }
   .device .planshet {
-    margin-top: 130px;
+    margin-top: 178px;
     text-align: center;
     position: relative; }
     .device .planshet img {
@@ -448,7 +468,8 @@ a .number {
   .frame img {
     margin-right: 20px; }
   .frame a {
-    color: #333333; }
+    color: #333333;
+    font-family: 'Montserrat', sans-serif; }
   .frame a:hover {
     color: #F38181;
     text-decoration: none;
@@ -457,6 +478,8 @@ a .number {
 .paragraph {
   height: 320px;
   margin-top: 10px; }
+  .paragraph p {
+    font-family: 'Roboto', sans-serif; }
 
 .scrollbar {
   float: left;
@@ -484,7 +507,8 @@ a .number {
   height: 270px;
   background-color: #F8F8F8; }
   .comment p {
-    border-top: 1px color white; }
+    border-top: 1px color white;
+    font-family: 'Roboto', sans-serif; }
 
 .part {
   display: -webkit-box;
@@ -557,12 +581,14 @@ a .number {
     transform: scale(1.05); }
   .members p {
     color: #999999;
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; }
   .members .name {
     margin-top: 25px;
     text-align: center; }
     .members .name a {
-      color: #333333; }
+      color: #333333;
+      font-family: 'Montserrat', sans-serif; }
     .members .name a:hover {
       color: #F38181;
       font-size: 20px;
@@ -609,6 +635,9 @@ a .number {
   .colection .row {
     margin-left: 0;
     margin-right: 0; }
+    .colection .row .col-6 {
+      padding-left: 0;
+      padding-right: 0; }
   .colection img {
     max-width: 100%;
     -webkit-transition: -webkit-transform .2s;
@@ -641,14 +670,16 @@ a .number {
     margin-bottom: 10px; }
   .creatively a {
     color: white;
-    font-size: 13px; }
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif; }
   .creatively a:hover {
     text-decoration: none;
     color: #F38181;
     font-size: 15px; }
   .creatively p {
     margin-top: 7px;
-    color: white; }
+    color: white;
+    font-family: 'Roboto', sans-serif; }
 
 .joshua {
   display: -webkit-box;
@@ -675,10 +706,12 @@ a .number {
   margin: auto;
   margin-left: 15px; }
   .describtion p {
-    color: #999999; }
+    color: #999999;
+    font-family: 'Roboto', sans-serif; }
   .describtion a {
     color: #333333;
-    margin-top: 15px; }
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif; }
   .describtion hr {
     width: 50px;
     height: 2px;
@@ -696,6 +729,10 @@ a .number {
 .clients {
   background-image: url(../img/mountain.png);
   background-attachment: fixed; }
+  .clients .text h2 {
+    font-family: 'Kaushan Script', cursive; }
+  .clients .text h1 {
+    font-family: 'Montserrat', sans-serif; }
   .clients .text {
     text-align: center; }
     .clients .text hr {
@@ -751,7 +788,8 @@ a .number {
     .people .person p {
       width: 380px;
       color: #999999;
-      margin-left: 30px; }
+      margin-left: 30px;
+      font-family: 'Roboto', sans-serif; }
     .people .person hr {
       width: 60px;
       height: 2px;
@@ -766,7 +804,8 @@ a .number {
     .people .person a {
       margin-top: 10px;
       margin-left: 30px;
-      color: #333333; }
+      color: #333333;
+      font-family: 'Montserrat', sans-serif; }
     .people .person a:hover {
       color: #F38181;
       font-size: 20px;
@@ -831,7 +870,8 @@ a .number {
   background-color: #95E1D3; }
   .position a {
     color: white;
-    font-size: 25px; }
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif; }
   .position a:last-child {
     font-size: 15px; }
   .position a:hover {
@@ -840,7 +880,8 @@ a .number {
     text-decoration: none; }
 
 .content a {
-  color: #333333; }
+  color: #333333;
+  font-family: 'Montserrat', sans-serif; }
 
 .content a:hover {
   color: #F38181;
@@ -850,7 +891,8 @@ a .number {
 .content p {
   color: #999999;
   margin-top: 10px;
-  width: 350px; }
+  width: 350px;
+  font-family: 'Roboto', sans-serif; }
 
 .eye {
   display: -webkit-box;
@@ -884,7 +926,8 @@ a .number {
   .destination a {
     margin-top: 15px;
     font-size: 26px;
-    color: #F38181; }
+    color: #F38181;
+    font-family: 'Montserrat', sans-serif; }
   .destination a:hover {
     font-size: 30px;
     text-decoration: none; }
@@ -932,7 +975,8 @@ a .number {
   margin-top: 70px; }
   .mogo a {
     font-size: 46px;
-    color: #CCCCCC; }
+    color: #CCCCCC;
+    font-family: 'Montserrat', sans-serif; }
   .mogo a:hover {
     color: #F38181;
     text-decoration: none; }
@@ -941,20 +985,24 @@ a .number {
     font-size: 15px;
     margin-bottom: 40px;
     margin-top: 40px;
-    color: #999999; }
+    color: #999999;
+    font-family: 'Roboto', sans-serif; }
   .mogo h2 {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif; }
   .mogo input[type=submit] {
     background-color: #95E1D3;
     color: white;
     border: none;
     width: 130px;
-    height: 40px; }
+    height: 40px;
+    font-family: 'Montserrat', sans-serif; }
   .mogo input[type=text] {
     color: #CCCCCC;
     height: 40px;
     width: 210px;
-    border: none; }
+    border: none;
+    font-family: 'Roboto', sans-serif; }
   .mogo input:hover {
     color: #F38181; }
 
@@ -990,14 +1038,16 @@ a .number {
     margin-left: 20px;
     width: 170px; }
   .Blogs a {
-    color: #333333; }
+    color: #333333;
+    font-family: 'Montserrat', sans-serif; }
   .Blogs a:hover {
     color: #F38181;
     font-size: 20px;
     text-decoration: none; }
   .Blogs p {
     color: #999999;
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif; }
   .Blogs img {
     -webkit-transition: -webkit-transform .2s;
     transition: -webkit-transform .2s;
@@ -1016,7 +1066,8 @@ a .number {
     margin-bottom: 20px;
     width: 275px; }
   .instagram a {
-    color: #333333; }
+    color: #333333;
+    font-family: 'Montserrat', sans-serif; }
   .instagram a:hover {
     color: #F38181;
     font-size: 20px;
@@ -1045,6 +1096,620 @@ a .number {
     display: inline-block;
     width: 1140px;
     margin: 0 auto;
-    text-align: center; }
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
   .titre p span {
     color: #F38181; }
+
+/*responsive*/
+@media only screen and (max-width: 1200px) {
+  .title {
+    width: 900px; }
+    .title h2 {
+      font-size: 20px; }
+    .title h1 {
+      font-size: 27px; }
+  .picture {
+    width: 960px; }
+  .background {
+    height: 250px; }
+    .background .row {
+      height: 250px; }
+    .background .container {
+      width: 980px; }
+  .work {
+    width: 960px; }
+  .stripe hr {
+    width: 980px; }
+  .article {
+    width: 960px; }
+    .article .photo img {
+      width: 410px; }
+    .article .photography {
+      width: 410px;
+      height: 275px; }
+      .article .photography .scrollbar {
+        height: 235px; }
+  .part {
+    width: 800px; }
+  .members {
+    width: 960px; }
+  .people {
+    width: 960px; }
+    .people .person {
+      width: 450px; }
+      .people .person img {
+        width: 100px;
+        height: 100px; }
+      .people .person p {
+        width: 300px; }
+  .stories {
+    width: 960px; }
+    .stories hr {
+      width: 300px; }
+  .month img {
+    width: 300px; }
+  .content p {
+    width: 300px; }
+  .footer {
+    width: 960px; }
+    .footer .mogo p {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .footer h2 {
+      margin-bottom: 20px; }
+  .follow {
+    margin-top: 17px;
+    margin-bottom: 25px; }
+  .mogo input[type=text] {
+    width: 170px; }
+  .mogo input[type=submit] {
+    width: 100px; }
+  .mogo, .Blogs {
+    width: 280px; }
+  .instagram .pic {
+    margin-top: 20px;
+    margin-bottom: 17px; } }
+
+@media only screen and (max-width: 992px) {
+  .title {
+    width: 700px; }
+    .title h2 {
+      font-size: 18px; }
+    .title h1 {
+      font-size: 23px; }
+  .picture {
+    width: 760px; }
+    .picture .box .transform {
+      width: 220px;
+      height: 145px; }
+    .picture img {
+      width: 220px; }
+  .background {
+    height: 220px; }
+    .background .row {
+      height: 220px; }
+    .background .container {
+      width: 760px; }
+  .work {
+    width: 760px; }
+    .work .service {
+      width: 210px; }
+      .work .service a {
+        font-size: 13px; }
+      .work .service p {
+        width: 180px; }
+  .stripe hr {
+    width: 760px; }
+  .article {
+    width: 760px; }
+    .article .photo img {
+      width: 320px; }
+    .article .photography {
+      width: 320px;
+      height: 215px; }
+      .article .photography .scrollbar {
+        height: 180px; }
+  .part {
+    width: 600px; }
+    .part .sms img {
+      width: 120px; }
+    .part .jon {
+      margin-top: 20px;
+      margin-left: 50px; }
+      .part .jon p {
+        width: 430px; }
+  .members {
+    width: 760px; }
+    .members .name a {
+      font-size: 15px; }
+    .members .name a:hover {
+      font-size: 16px; }
+    .members .name p {
+      font-size: 13px; }
+  .boy .transform {
+    width: 230px;
+    height: 284px; }
+  .boy img {
+    width: 230px; }
+  .boy .social img {
+    width: 25px; }
+  .creatively img {
+    width: 24px; }
+  .creatively a {
+    font-size: 15px; }
+  .creatively p {
+    font-size: 14px; }
+  .joshua {
+    width: 600px; }
+    .joshua img {
+      width: 180px; }
+    .joshua .line a:hover {
+      text-decoration: none;
+      color: #F38181;
+      font-size: 18px; }
+  .people {
+    width: 760px; }
+    .people .person {
+      width: 350px; }
+      .people .person img {
+        width: 90px;
+        height: 90px; }
+      .people .person p {
+        width: 200px; }
+  .stories {
+    width: 760px; }
+    .stories hr {
+      width: 200px; }
+  .month img {
+    width: 200px; }
+  .content p {
+    width: 200px; }
+  .content a:hover {
+    font-size: 17px; }
+  .position {
+    width: 40px;
+    height: 50px; }
+  .footer {
+    width: 760px; }
+    .footer .mogo {
+      width: 200px;
+      height: 250px; }
+      .footer .mogo a {
+        font-size: 25px; }
+      .footer .mogo p {
+        margin-top: 10px;
+        margin-bottom: 10px; }
+        .footer .mogo p span {
+          display: none; }
+      .footer .mogo h2 {
+        margin-bottom: 10px; }
+  .follow {
+    margin-top: 13px;
+    margin-bottom: 18px; }
+  .mogo input[type=text] {
+    width: 120px; }
+  .mogo input[type=submit] {
+    width: 75px; }
+  .Blogs {
+    width: 230px; }
+    .Blogs .site {
+      margin-top: 10px; }
+      .Blogs .site img {
+        width: 100px; }
+    .Blogs .txt {
+      margin-left: 15px; }
+      .Blogs .txt span {
+        display: none; }
+  .instagram {
+    width: 200px; }
+    .instagram a {
+      font-size: 15px; }
+    .instagram a:hover {
+      font-size: 16px; }
+    .instagram .pic {
+      width: 200px;
+      margin-top: 20px;
+      margin-bottom: 17px; }
+      .instagram .pic img {
+        width: 60px; }
+  .destination {
+    width: 800px; }
+  .titre {
+    width: 800px;
+    margin: 0 auto; }
+    .titre p {
+      width: 760px; } }
+
+@media only screen and (max-width: 768px) {
+  .title {
+    width: 500px; }
+    .title h2 {
+      font-size: 18px; }
+    .title h1 {
+      font-size: 23px; }
+  .picture {
+    width: 500px; }
+    .picture .box .transform {
+      width: 230px;
+      height: 151px; }
+    .picture img {
+      width: 230px; }
+  .last-child {
+    display: none; }
+  .background {
+    height: 220px; }
+    .background .row {
+      height: 220px; }
+    .background .container {
+      width: 760px; }
+  .work {
+    width: 500px; }
+    .work .service {
+      width: 210px; }
+      .work .service a {
+        font-size: 13px; }
+      .work .service p {
+        width: 180px; }
+  .stripe hr {
+    width: 500px; }
+  .device .planshet {
+    width: 500px; }
+    .device .planshet .iphone {
+      left: 300px; }
+  .article {
+    width: 500px; }
+    .article .frame img {
+      width: 20px; }
+    .article .frame a {
+      font-size: 13px; }
+    .article .photo img {
+      width: 220px; }
+    .article .photography {
+      width: 220px;
+      height: 146px; }
+      .article .photography .scrollbar {
+        height: 120px; }
+  .part {
+    width: 450px; }
+    .part .sms img {
+      width: 100px; }
+    .part .jon {
+      margin-top: 60px;
+      margin-left: 50px; }
+      .part .jon p {
+        width: 300px; }
+  .members {
+    width: 500px; }
+    .members .name a {
+      font-size: 15px; }
+    .members .name a:hover {
+      font-size: 16px; }
+    .members .name p {
+      font-size: 13px; }
+  .boy .transform {
+    width: 230px;
+    height: 284px; }
+  .boy img {
+    width: 230px; }
+  .boy .social img {
+    width: 25px; }
+  .creatively img {
+    width: 24px; }
+  .creatively a {
+    font-size: 15px; }
+  .creatively p {
+    font-size: 14px; }
+  .joshua {
+    width: 500px; }
+    .joshua img {
+      width: 150px; }
+    .joshua .line a:hover {
+      text-decoration: none;
+      color: #F38181;
+      font-size: 18px; }
+  .people {
+    width: 500px; }
+    .people .person {
+      width: 230px; }
+      .people .person img {
+        width: 70px;
+        height: 70px; }
+      .people .person p {
+        width: 140px; }
+  .stories {
+    width: 500px; }
+    .stories hr {
+      width: 200px; }
+  .month img {
+    width: 200px; }
+  .content p {
+    width: 200px; }
+  .content a:hover {
+    font-size: 17px; }
+  .position {
+    width: 40px;
+    height: 50px; }
+  .footer {
+    width: 500px; }
+    .footer .mogo {
+      width: 200px;
+      height: 250px; }
+      .footer .mogo a {
+        font-size: 25px; }
+      .footer .mogo p {
+        margin-top: 10px;
+        margin-bottom: 10px; }
+        .footer .mogo p span {
+          display: none; }
+      .footer .mogo h2 {
+        margin-bottom: 10px; }
+  .follow {
+    margin-top: 13px;
+    margin-bottom: 18px; }
+  .mogo input[type=text] {
+    width: 120px; }
+  .mogo input[type=submit] {
+    width: 75px; }
+  .Blogs {
+    width: 230px; }
+    .Blogs a {
+      font-family: 'Montserrat', sans-serif; }
+    .Blogs .site {
+      margin-top: 10px; }
+      .Blogs .site img {
+        width: 100px; }
+    .Blogs .txt {
+      margin-left: 15px; }
+      .Blogs .txt span {
+        display: none; }
+  .instagram {
+    width: 200px; }
+    .instagram a {
+      font-size: 15px; }
+    .instagram a:hover {
+      font-size: 16px; }
+    .instagram .pic {
+      width: 200px;
+      margin-top: 20px;
+      margin-bottom: 17px; }
+      .instagram .pic img {
+        width: 60px; }
+  .destination {
+    width: 500px; }
+  .titre {
+    width: 500px;
+    margin: 0 auto; }
+    .titre p {
+      width: 400px; } }
+
+@media only screen and (max-width: 567px) {
+  header .text {
+    width: 200px; }
+    header .text h1 {
+      font-size: 30px; }
+    header .text h2 {
+      font-size: 40px; }
+  .title {
+    width: 280px; }
+    .title h2 {
+      font-size: 15px; }
+    .title h1 {
+      font-size: 18px; }
+  .picture {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 300px; }
+    .picture .box {
+      margin-bottom: 30px; }
+      .picture .box .transform {
+        width: 230px;
+        height: 151px; }
+    .picture img {
+      width: 230px; }
+  .last-child {
+    display: none; }
+  .background {
+    height: 220px; }
+    .background .row {
+      height: 220px; }
+    .background .container {
+      width: 760px; }
+  .work {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 300px; }
+    .work .service {
+      margin-bottom: 30px;
+      width: 210px; }
+      .work .service a {
+        font-size: 13px; }
+      .work .service p {
+        width: 180px; }
+  .stripe hr {
+    display: none; }
+  .device .planshet {
+    width: 300px; }
+    .device .planshet .iphone {
+      left: 100px; }
+  .article {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 300px; }
+    .article .frame img {
+      width: 20px; }
+    .article .frame a {
+      font-size: 13px; }
+    .article .photo {
+      margin-bottom: 30px; }
+      .article .photo img {
+        width: 220px; }
+    .article .photography {
+      width: 220px;
+      height: 146px; }
+      .article .photography .scrollbar {
+        height: 120px; }
+  .part {
+    width: 300px; }
+    .part .sms img {
+      width: 100px; }
+    .part .jon {
+      margin-top: 60px;
+      margin-left: 50px; }
+      .part .jon p {
+        display: none; }
+  .members {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 300px; }
+    .members .name a {
+      font-size: 15px; }
+    .members .name a:hover {
+      font-size: 16px; }
+    .members .name p {
+      font-size: 13px; }
+  .boy .transform {
+    width: 230px;
+    height: 284px; }
+  .boy {
+    margin-bottom: 30px; }
+    .boy img {
+      width: 230px; }
+  .boy .social img {
+    width: 25px; }
+  .creatively img {
+    width: 24px; }
+  .creatively a {
+    font-size: 15px; }
+  .creatively p {
+    font-size: 14px; }
+  .joshua {
+    width: 300px; }
+    .joshua img {
+      width: 150px; }
+    .joshua .line a:hover {
+      text-decoration: none;
+      color: #F38181;
+      font-size: 18px; } }
+
+.description p {
+  display: none; }
+
+.description .people {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 300px; }
+  .description .people .person {
+    width: 230px; }
+    .description .people .person img {
+      width: 70px;
+      height: 70px; }
+    .description .people .person p {
+      width: 140px; }
+
+.description .clients .last-child {
+  display: none; }
+
+.description .stories {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 300px; }
+  .description .stories hr {
+    width: 200px; }
+
+.description .month img {
+  width: 200px; }
+
+.description .content p {
+  width: 200px; }
+
+.description .content a:hover {
+  font-size: 17px; }
+
+.description .position {
+  width: 40px;
+  height: 50px; }
+
+.description .footer {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 300px; }
+  .description .footer .mogo {
+    width: 200px;
+    height: 250px; }
+    .description .footer .mogo a {
+      font-size: 25px; }
+    .description .footer .mogo p {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      .description .footer .mogo p span {
+        display: none; }
+    .description .footer .mogo h2 {
+      margin-bottom: 10px; }
+
+.description .follow {
+  margin-top: 13px;
+  margin-bottom: 18px; }
+
+.description .mogo input[type=text] {
+  width: 120px; }
+
+.description .mogo input[type=submit] {
+  width: 75px; }
+
+.description .instagram {
+  width: 200px; }
+  .description .instagram a {
+    font-size: 15px; }
+  .description .instagram a:hover {
+    font-size: 16px; }
+  .description .instagram .pic {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 17px; }
+    .description .instagram .pic img {
+      width: 60px; }
+
+.description .destination {
+  width: 200px; }
+
+.description .titre {
+  width: 300px;
+  margin: 0 auto; }
+  .description .titre p {
+    width: 400px; }
