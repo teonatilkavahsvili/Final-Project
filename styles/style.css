@@ -127,8 +127,8 @@ header .banner {
   header .banner input {
     outline: none; }
   header .banner input[type=search] {
-    -webkit-appearance: textfield;
     -webkit-box-sizing: content-box;
+    box-sizing: content-box;
     font-family: inherit;
     font-size: 100%; }
   header .banner input::-webkit-search-decoration,
@@ -490,6 +490,7 @@ a .number {
 
 #style-3::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #F5F5F5;
   -webkit-border-radius: 30%;
   border-radius: 30%; }
@@ -1484,6 +1485,23 @@ a .number {
       width: 400px; } }
 
 @media only screen and (max-width: 567px) {
+  .clients {
+    height: auto; }
+    .clients .people {
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .clients .people .person {
+        width: inherit; }
+        .clients .people .person img {
+          width: 70px;
+          height: 70px; }
+        .clients .people .person p {
+          width: 140px; }
   header .text {
     width: 200px; }
     header .text h1 {
@@ -1610,106 +1628,27 @@ a .number {
     .joshua .line a:hover {
       text-decoration: none;
       color: #F38181;
-      font-size: 18px; } }
-
-.description p {
-  display: none; }
-
-.description .people {
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 300px; }
-  .description .people .person {
-    width: 230px; }
-    .description .people .person img {
-      width: 70px;
-      height: 70px; }
-    .description .people .person p {
-      width: 140px; }
-
-.description .clients .last-child {
-  display: none; }
-
-.description .stories {
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 300px; }
-  .description .stories hr {
-    width: 200px; }
-
-.description .month img {
-  width: 200px; }
-
-.description .content p {
-  width: 200px; }
-
-.description .content a:hover {
-  font-size: 17px; }
-
-.description .position {
-  width: 40px;
-  height: 50px; }
-
-.description .footer {
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 300px; }
-  .description .footer .mogo {
-    width: 200px;
-    height: 250px; }
-    .description .footer .mogo a {
-      font-size: 25px; }
-    .description .footer .mogo p {
-      margin-top: 10px;
-      margin-bottom: 10px; }
-      .description .footer .mogo p span {
-        display: none; }
-    .description .footer .mogo h2 {
-      margin-bottom: 10px; }
-
-.description .follow {
-  margin-top: 13px;
-  margin-bottom: 18px; }
-
-.description .mogo input[type=text] {
-  width: 120px; }
-
-.description .mogo input[type=submit] {
-  width: 75px; }
-
-.description .instagram {
-  width: 200px; }
-  .description .instagram a {
-    font-size: 15px; }
-  .description .instagram a:hover {
-    font-size: 16px; }
-  .description .instagram .pic {
-    width: 200px;
-    margin-top: 20px;
-    margin-bottom: 17px; }
-    .description .instagram .pic img {
-      width: 60px; }
-
-.description .destination {
-  width: 200px; }
-
-.description .titre {
-  width: 300px;
-  margin: 0 auto; }
-  .description .titre p {
-    width: 400px; }
+      font-size: 18px; }
+  .description p {
+    display: none; }
+  .stories {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 300px; }
+    .stories hr {
+      width: 200px; }
+  .footer {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 300px;
+    height: auto; } }

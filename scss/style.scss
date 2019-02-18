@@ -24,8 +24,8 @@ header{
             outline: none;
         }
         input[type=search] {
-            -webkit-appearance: textfield;
-            -webkit-box-sizing: content-box;
+
+            box-sizing: content-box;
             font-family: inherit;
             font-size: 100%;
         }
@@ -452,7 +452,7 @@ a{
 
 #style-3::-webkit-scrollbar-track
 {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     background-color: #F5F5F5;
     border-radius:30%;
 }
@@ -1893,18 +1893,39 @@ img:hover{
 }
 
 @media only screen and (max-width: 567px){
-header{
-    .text{
-        width:200px;
-        h1{
-            font-size:30px;
-        }
-        h2{
-            font-size:40px;
+    .clients{
+        height: auto;
+        .people{
+            flex-wrap: wrap;
+            justify-content: center;
+            .person{
+                width: inherit;
+                img{
+                    width:70px;
+                    height:70px;
+                }
+    
+                p{
+                    width:140px;
+                }
+            }
         }
 
     }
-}
+    
+
+ header{
+     .text{
+         width:200px;
+         h1{
+            font-size:30px;
+        }
+        h2{
+             font-size:40px;
+         }
+
+     }
+ }
     
 
 
@@ -2093,37 +2114,14 @@ header{
                 font-size:18px;
             }
         }
-        }
+        
     }
     .description{
         p{
             display:none;
         }
-
-
-    .people{
-        flex-wrap: wrap;
-        justify-content: center;
-        width:300px;
-
-        .person{
-            width:230px;
-
-            img{
-                width:70px;
-                height:70px;
-            }
-
-            p{
-                width:140px;
-            }
-        }
     }
-    .clients{
-        .last-child{
-            display: none;
-        }
-    }
+
 
     .stories{
         flex-wrap: wrap;
@@ -2133,92 +2131,94 @@ header{
             width:200px;
         }
     }
-    .month{
-        img{
-            width:200px;
-        }
+//     .month{
+//         img{
+//             width:200px;
+//         }
 
-    }
-    .content{
-        p{
-            width:200px;
-        }
-        a:hover{
-            font-size:17px;
-        }
-    }
-    .position{
-        width:40px;
-        height: 50px;
-    }
+//     }
+//     .content{
+//         p{
+//             width:200px;
+//         }
+//         a:hover{
+//             font-size:17px;
+//         }
+//     }
+//     .position{
+//         width:40px;
+//         height: 50px;
+//     }
 
     .footer{
         flex-wrap:wrap;
         justify-content: center;
         width:300px;
-
-       .mogo{ 
-           width:200px;
-           height: 250px;
-           a{
-               font-size:25px;
-           }
-           p{
-            margin-top:10px;
-            margin-bottom:10px;
-            span{
-                display:none;
-            }
-            }
-        h2{
-            margin-bottom:10px;
-        }
-      }
+        height: auto;
     }
-        .follow{
-            margin-top:13px;
-            margin-bottom:18px;
-        }
-        .mogo input[type=text]{
-            width:120px;
-        }
-        .mogo input[type=submit]{
-            width:75px;
-        }
+
+//        .mogo{ 
+//            width:200px;
+//            height: 250px;
+//            a{
+//                font-size:25px;
+//            }
+//            p{
+//             margin-top:10px;
+//             margin-bottom:10px;
+//             span{
+//                 display:none;
+//             }
+//             }
+//         h2{
+//             margin-bottom:10px;
+//         }
+//       }
+//     }
+//         .follow{
+//             margin-top:13px;
+//             margin-bottom:18px;
+//         }
+//         .mogo input[type=text]{
+//             width:120px;
+//         }
+//         .mogo input[type=submit]{
+//             width:75px;
+//         }
 
     
-    .instagram{
-        a{
-            font-size:15px;
-        }
-        a:hover{
-            font-size:16px;
-        }
-        width:200px;
+//     .instagram{
+//         a{
+//             font-size:15px;
+//         }
+//         a:hover{
+//             font-size:16px;
+//         }
+//         width:200px;
 
-         .pic{
-        width:200px;
-        margin-top:20px;
-        margin-bottom:17px;
+//          .pic{
+//         width:200px;
+//         margin-top:20px;
+//         margin-bottom:17px;
 
-        img{
-            width:60px;
-        }
-         }
-    }
+//         img{
+//             width:60px;
+//         }
+//          }
+//     }
 
-    .destination{
-        width:200px;
-    }
+//     .destination{
+//         width:200px;
+//     }
 
-    .titre{
-        width:300px;
-        margin:0 auto;
+//     .titre{
+//         width:300px;
+//         margin:0 auto;
 
-        p{
-            width:400px;
-        }
-    }
+//         p{
+//             width:400px;
+//         }
+//     }
    
 }   
    
